@@ -1,0 +1,11 @@
+{
+  "name": "Girls-Do-Hack",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "publisssh": "~0.2.6"
+  },
+  "scripts": {
+    "deploy": "publisssh"
+  }
+}
