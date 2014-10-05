@@ -6,13 +6,17 @@ $header-height: 80px
   height: $header-height
 
   .header-links
+    -webkit-align-items: center
     align-items: center
+    display: -webkit-flex
     display: flex
+    -webkit-justify-content: space-between
     justify-content: space-between
 
     .site-title
       font-size: 28px
       font-weight: 700
+      letter-spacing: 1px
       text-transform: uppercase
 
       a
@@ -36,7 +40,7 @@ $header-height: 80px
         text-decoration: none
 
 .site-picture
-  background-image: url(http://placehold.it/1100x319)
+  background-image: url(../images/gdh-hero.jpg)
   background-position: center
   background-repeat: no-repeat
   background-size: cover
@@ -46,6 +50,7 @@ $header-height: 80px
   padding: 30px 0
 
   .wrapper
+    display: -webkit-flex
     display: flex
 
     .page-content
@@ -74,13 +79,14 @@ $header-height: 80px
   color: white
   font-size: 22px
   font-weight: 100
-  letter-spacing: 2px
-  padding: 25px 0
+  letter-spacing: 3px
+  padding: 32px 0
   text-align: center
   text-transform: uppercase
 
-  b
-    font-size: 40px
+  img
+    margin: -5px 15px 0 15px
+    vertical-align: middle
 
 .site-footer
   background: $salmon
