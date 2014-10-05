@@ -1,0 +1,105 @@
+$header-height: 80px
+
+.site-header
+  background: $purple
+  color: white
+  height: $header-height
+
+  .header-links
+    align-items: center
+    display: flex
+    justify-content: space-between
+
+    .site-title
+      font-size: 28px
+      font-weight: 700
+      text-transform: uppercase
+
+    .site-menu-item
+      display: inline-block
+      line-height: $header-height
+
+      &.focus
+        background: $salmon
+        a
+          padding: 0 25px
+
+      a
+        color: inherit
+        display: block
+        height: $header-height
+        padding: 0 18px
+        text-decoration: none
+
+.site-picture
+  background-image: url(http://placehold.it/1100x319)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 319px
+
+.content-area
+  padding: 30px 0
+
+  .wrapper
+    display: flex
+
+    .page-content
+      box-sizing: border-box
+      padding: 0 70px 0 50px
+      width: 67%
+
+    .page-sidebar
+      box-sizing: border-box
+      padding: 0 50px 0 25px
+      width: 33%
+
+      .event-date
+        font-size: 40px
+
+      .sidebar-section
+        border-bottom: 1px solid #d0d0d0
+        margin: 0 0 50px 0
+        padding: 0 0 50px 0
+
+      table
+        width: 100%
+
+.site-footer
+  background: $salmon
+  color: white
+  padding: 50px 0
+
+  .adler-link-stack
+    @extend .cf
+    font-size: 11px
+    list-style: none
+    margin: 0 0 30px 0
+    padding: 0
+
+    > li
+      float: left
+      font-size: 1em
+      width: 16%
+
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+
+      li
+        margin: 0 0 0.8em 0
+
+    h2
+      font-size: 1em
+      font-weight: 400
+      margin: -4px 0 0.8em 0
+      text-transform: uppercase
+
+    a
+      color: #f2f2f2
+      font-weight: 100
+      text-decoration: none
+
+  a, h1, h2, h3, h4, h5, h6, p
+    color: inherit
