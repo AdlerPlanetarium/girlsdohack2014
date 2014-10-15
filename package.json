@@ -4,6 +4,6 @@
     "publisssh": "^0.2.6"
   },
   "scripts": {
-    "deploy-to-staging": "jekyll build && publisssh ./_site demo.zooniverse.org/gdh2014"
+    "deploy": "jekyll build && publisssh ./_site zooniverse-static/girlsdohack.adlerplanetarium.org"
   }
 }
