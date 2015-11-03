@@ -1,9 +1,14 @@
 {
   "name": "Girls-Do-Hack",
+  "version": "1.0.0",
+  "author": "Adler Planetarium",
+  "license": "Apache-2.0",
+  "repository": "github:AdlerPlanetarium/girlsdohack2014",
   "dependencies": {
-    "publisssh": "^0.2.6"
+    "publisssh": "^1.0.0"
   },
   "scripts": {
+    "start": "jekyll serve",
     "deploy": "jekyll build && publisssh ./_site zooniverse-static/girlsdohack.adlerplanetarium.org"
   }
 }
